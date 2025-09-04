@@ -91,7 +91,7 @@ const AchievementCard = ({ achievement, index }) => {
 
 const Achievements = () => {
   return (
-    <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
+    <div id="achievements" className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
       <div className={`${styles.boxWidth}`}>
         <motion.h2
           className="font-poppins font-semibold ss:text-[48px] text-[40px] text-white ss:leading-[76px] leading-[75px] mb-16"

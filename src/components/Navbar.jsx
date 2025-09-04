@@ -7,6 +7,11 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
+  const handleNavClick = (id) => {
+    scrollToSection(id);
+    setToggle(false); // Close mobile menu when link is clicked
+  };
+
   return (
     <nav className="nav-styles sm:px-16 px-6">
       {/* Logo */}
@@ -62,9 +67,10 @@ const Navbar = () => {
                 cursor-pointer
                 text-[16px]
                 ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
-                text-white`}
+                text-white hover:text-teal-200`}
+                onClick={() => handleNavClick(nav.id)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                {nav.title}
               </li>
             ))}
           </ul>
