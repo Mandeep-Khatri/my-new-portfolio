@@ -402,7 +402,7 @@ export const projects = [
   {
     id: "project-2",
     title: "Smart To-Do List",
-    github: "",
+    github: "https://github.com/Mandeep-Khatri/Smart-To-Do-",
     link: "",
     image: todo,
     content:
