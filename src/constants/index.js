@@ -376,7 +376,7 @@ export const projects = [
   {
     id: "project-1",
     title: "LLM-Powered Q&A Chatbot",
-    github: "",
+    github: "https://github.com/Mandeep-Khatri/QA-Chatbot",
     link: "",
     image: chatbot,
     content:
