@@ -67,8 +67,10 @@ const Navbar = () => {
                 cursor-pointer
                 text-[16px]
                 ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}
-                text-white hover:text-teal-200`}
+                text-white hover:text-teal-200 p-2 rounded`}
                 onClick={() => handleNavClick(nav.id)}
+                onTouchEnd={() => handleNavClick(nav.id)}
+                style={{ userSelect: 'none', WebkitUserSelect: 'none' }}
               >
                 {nav.title}
               </li>
