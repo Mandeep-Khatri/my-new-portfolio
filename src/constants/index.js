@@ -129,7 +129,7 @@ export const educationList = [
     title: "Alabama A&M University, Huntsville, AL",
     degree: "Bachelor of Science in Computer Science",
     duration: "Expected Graduation: December 2027",
-    content1: "Honors: AAMU Full Merit Scholarship, EICOP 2025 Finalist",
+    content1: "Honors: AAMU Full Merit Scholarship",
     content2: "GPA: 3.80",
     content3: "Relevant Coursework: Data Structures, Java, C++, Python, Intro to Digital Logic Design",
   },
