@@ -33,6 +33,7 @@ import {
   cloud,
   matlab,
   flask,
+  gyres,
 } from "../assets";
 
 import {
@@ -438,7 +439,7 @@ export const projects = [
     title: "Oceanic Gyres & Garbage Patch Analysis (NASA-Aligned Research)",
     github: "",
     link: "",
-    image: cloud,
+    image: gyres,
     content:
       "This research project investigates global ocean circulation patterns by analyzing 1,100+ satellite-tracked ocean drifter trajectories to identify oceanic gyres and marine debris accumulation zones. The study employs MATLAB and NetCDF to process large-scale geophysical datasets, implementing an automated data pipeline for trajectory preprocessing, anomaly filtering, and latitude–longitude matrix generation. Velocity magnitude and spatial convergence analyses were applied to quantify circulation dynamics and validate gyre locations. The research produced reproducible trajectory and speed visualizations and contributed to improved characterization of large-scale ocean transport mechanisms relevant to marine debris modeling.",
     stack: [

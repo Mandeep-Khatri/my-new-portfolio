@@ -43,6 +43,7 @@ import cloud from "./cloud.png";
 import bulldogs from "./bulldogs.png";
 import matlab from "./matlab.png";
 import flask from "./flask.png";
+import gyres from "./gyres.png";
 
 export {
   menu,
@@ -89,5 +90,6 @@ export {
   bulldogs,
   matlab,
   flask,
+  gyres,
   placeholder,
 };
