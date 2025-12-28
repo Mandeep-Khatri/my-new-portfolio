@@ -256,7 +256,7 @@ export const skills = [
     ],
   },
   {
-    title: "Tools",
+    title: "Build/Tooling",
     items: [
       {
         id: "t-1",
