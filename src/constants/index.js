@@ -31,6 +31,7 @@ import {
   todo,
   chatbot,
   cloud,
+  matlab,
 } from "../assets";
 
 import {
@@ -192,8 +193,8 @@ export const skills = [
       },
       {
         id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
+        image: matlab,
+        name: "MATLAB",
       },
     ],
   },
