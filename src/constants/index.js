@@ -85,6 +85,7 @@ import {
   SiFastapi,
   SiAwslambda,
   SiPytorch,
+  SiKubernetes,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -299,8 +300,8 @@ export const skills = [
       },
       {
         id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
+        icon: SiKubernetes,
+        name: "Kubernetes",
       },
       {
         id: "t-9",
