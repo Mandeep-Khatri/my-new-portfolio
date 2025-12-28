@@ -31,6 +31,7 @@ import {
   todo,
   chatbot,
   cloud,
+  matlab,
 } from "../assets";
 
 import {
@@ -78,7 +79,6 @@ import {
   SiTypescript,
   SiClaude,
   SiOracle,
-  SiOctave,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -168,7 +168,7 @@ export const skills = [
       },
       {
         id: "pl-6",
-        icon: SiOctave,
+        image: matlab,
         name: "MATLAB",
       },
       {
