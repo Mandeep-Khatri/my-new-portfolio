@@ -35,7 +35,15 @@ const Project = (props) => {
                   index={index}
                   className="text-dimWhite mr-5 text-[20px] hover:text-teal-200 tooltip"
                 >
-                  {React.createElement(tech.icon)}
+                  {tech.image ? (
+                    <img 
+                      src={tech.image} 
+                      alt={tech.name} 
+                      className="w-[20px] h-[20px] object-contain hover:opacity-80"
+                    />
+                  ) : (
+                    React.createElement(tech.icon)
+                  )}
                   <span className="tooltiptext">{tech.name}</span>
                 </div>
               ))}
