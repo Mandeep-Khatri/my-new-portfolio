@@ -143,58 +143,58 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
-        id: "pl-2",
         icon: SiPython,
         name: "Python",
       },
       {
-        id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
+        id: "pl-2",
         icon: DiJava,
         name: "Java",
       },
       {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "pl-9",
-        icon: DiCss3,
-        name: "CSS",
-      },
-      {
-        id: "pl-10",
+        id: "pl-3",
         icon: SiJavascript,
         name: "JavaScript",
       },
       {
-        id: "pl-11",
+        id: "pl-4",
+        icon: SiCplusplus,
+        name: "C++",
+      },
+      {
+        id: "pl-5",
+        icon: SiC,
+        name: "C",
+      },
+      {
+        id: "pl-6",
         image: matlab,
         name: "MATLAB",
+      },
+      {
+        id: "pl-7",
+        icon: DiRuby,
+        name: "Ruby",
+      },
+      {
+        id: "pl-8",
+        icon: FaGolang,
+        name: "Go",
+      },
+      {
+        id: "pl-9",
+        icon: FaRust,
+        name: "Rust",
+      },
+      {
+        id: "pl-10",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+      {
+        id: "pl-11",
+        icon: DiCss3,
+        name: "CSS",
       },
     ],
   },
