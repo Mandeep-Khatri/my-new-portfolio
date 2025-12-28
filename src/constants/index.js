@@ -80,6 +80,7 @@ import {
   SiTypescript,
   SiClaude,
   SiOracle,
+  SiDocker,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -224,8 +225,8 @@ export const skills = [
       },
       {
         id: "f-5",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: SiDocker,
+        name: "Docker",
       },
       {
         id: "f-6",
