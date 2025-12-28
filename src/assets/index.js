@@ -42,6 +42,7 @@ import google from "./google.jpg";
 import cloud from "./cloud.png";
 import bulldogs from "./bulldogs.png";
 import matlab from "./matlab.png";
+import flask from "./flask.png";
 
 export {
   menu,
@@ -87,5 +88,6 @@ export {
   cloud,
   bulldogs,
   matlab,
+  flask,
   placeholder,
 };

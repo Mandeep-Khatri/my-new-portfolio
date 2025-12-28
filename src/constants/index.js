@@ -32,6 +32,7 @@ import {
   chatbot,
   cloud,
   matlab,
+  flask,
 } from "../assets";
 
 import {
@@ -203,41 +204,46 @@ export const skills = [
     items: [
       {
         id: "f-1",
+        image: flask,
+        name: "Flask",
+      },
+      {
+        id: "f-2",
         icon: SiDjango,
         name: "Django",
       },
       {
-        id: "f-2",
+        id: "f-3",
         icon: SiRubyonrails,
         name: "Ruby on Rails",
       },
       {
-        id: "f-3",
+        id: "f-4",
         icon: SiReact,
         name: "ReactJS",
       },
       {
-        id: "f-4",
+        id: "f-5",
         icon: SiBootstrap,
         name: "Bootstrap",
       },
       {
-        id: "f-5",
+        id: "f-6",
         icon: SiTailwindcss,
         name: "Tailwind CSS",
       },
       {
-        id: "f-6",
+        id: "f-7",
         icon: SiJquery,
         name: "jQuery",
       },
       {
-        id: "f-7",
+        id: "f-8",
         icon: SiGraphql,
         name: "GraphQL",
       },
       {
-        id: "f-8",
+        id: "f-9",
         icon: SiDotnet,
         name: ".NET",
       },
