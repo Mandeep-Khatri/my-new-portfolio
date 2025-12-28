@@ -82,6 +82,7 @@ import {
   SiOracle,
   SiDocker,
   SiLinux,
+  SiFastapi,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -231,8 +232,8 @@ export const skills = [
       },
       {
         id: "f-6",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: SiFastapi,
+        name: "FastAPI",
       },
       {
         id: "f-7",
