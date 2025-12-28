@@ -81,6 +81,7 @@ import {
   SiClaude,
   SiOracle,
   SiDocker,
+  SiLinux,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -215,8 +216,8 @@ export const skills = [
       },
       {
         id: "f-3",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: SiLinux,
+        name: "Linux",
       },
       {
         id: "f-4",
