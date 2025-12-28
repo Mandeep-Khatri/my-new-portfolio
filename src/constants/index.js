@@ -180,8 +180,8 @@ export const skills = [
       },
       {
         id: "pl-7",
-        icon: DiRuby,
-        name: "Ruby",
+        icon: SiMysql,
+        name: "SQL",
       },
       {
         id: "pl-8",
