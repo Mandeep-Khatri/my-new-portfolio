@@ -41,7 +41,6 @@ import chatbot from "./chatbot.png";
 import google from "./google.jpg";
 import cloud from "./cloud.png";
 import bulldogs from "./bulldogs.png";
-import matlab from "./matlab.png";
 
 export {
   menu,
