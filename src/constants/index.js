@@ -84,6 +84,7 @@ import {
   SiLinux,
   SiFastapi,
   SiAwslambda,
+  SiPytorch,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -273,8 +274,8 @@ export const skills = [
       },
       {
         id: "t-3",
-        icon: SiPostman,
-        name: "Postman",
+        icon: SiPytorch,
+        name: "PyTorch",
       },
       {
         id: "t-4",
