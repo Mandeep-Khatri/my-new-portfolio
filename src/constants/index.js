@@ -83,6 +83,7 @@ import {
   SiDocker,
   SiLinux,
   SiFastapi,
+  SiAwslambda,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -257,8 +258,8 @@ export const skills = [
     items: [
       {
         id: "t-1",
-        icon: SiOracle,
-        name: "Oracle Cloud",
+        icon: SiAwslambda,
+        name: "Lambda",
       },
       {
         id: "t-1",
