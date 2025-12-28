@@ -437,7 +437,7 @@ export const projects = [
   {
     id: "project-3",
     title: "Oceanic Gyres & Garbage Patch Analysis (NASA-Aligned Research)",
-    github: "",
+    github: "https://github.com/Mandeep-Khatri/oceanic-gyres-garbage-patches",
     link: "",
     image: gyres,
     content:
